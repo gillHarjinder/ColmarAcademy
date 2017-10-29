@@ -1,0 +1,17 @@
+/* default webpage*/
+html{
+	font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+
+
+/*Media value for 
+	all device*/
+body{
+    line-height: 1.4rem;
+}
+
+
+
+
