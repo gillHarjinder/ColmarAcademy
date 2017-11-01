@@ -15,6 +15,8 @@ body{
     background-color: #FFFFFF;
 }
 
+
+/* Header part start*/
 header {
   	width: 100%;
   	height: 64px;
@@ -28,18 +30,18 @@ header {
 
 .colmarLogo {
 	display: flex;
+	align-items: center;
 }
+
 
 .colmarColor {
 	text-transform: uppercase;
   	font-weight: bold;
-  	font-size: 32px;
 }
 
 .academyColor {
 	text-transform: uppercase;
-	color: #FF6C31;
-	font-size: 32px;
+	color: #FF6C31;	
 }
 
 #forDesktop {
