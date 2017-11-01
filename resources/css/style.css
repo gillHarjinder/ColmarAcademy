@@ -1,4 +1,4 @@
-
+/* Setup for desktop*/
 * {
   	margin: 0;
   	padding: 0;
@@ -67,6 +67,9 @@ a:hover {
   	display: none;
 }
 
+
+
+/* Setup for Mobile devices*/
 
 @media only screen and (max-width: 710px) {
 	#forDesktop {
