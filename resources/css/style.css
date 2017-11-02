@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Sumana');
+
 
 /* Setup for desktop*/
 * {
@@ -29,7 +32,10 @@ header {
 	border-bottom: 1px solid #000000;
 }
 
-
+header p{
+	font-family: Helvetica, sans-serif;
+	font-size: 26px;
+}
 
 .colmarLogo {
 	display: flex;
@@ -65,7 +71,7 @@ header a{
 }
 
 header a:hover {
-  	background-color: #FF6C31;
+  	background-color: #9CFF92;
 }
 
 #forMobile {
@@ -83,6 +89,7 @@ header a:hover {
 #learnSomething h1 {
 	font-size: 2rem;
 	font-weight: bold;
+	font-family: 'Sumana', serif;
 }
 
 #learnSomething h2 {
@@ -94,6 +101,17 @@ header a:hover {
 #learnSomething .wrapper{
 	text-align: center;
 }
+
+
+p{
+	font-family: 'Indie Flower', cursive;
+	font-size: 2rem;
+}
+
+h5{
+
+}
+
 
 button {
   	background-color: #FFFFFF;
@@ -138,17 +156,17 @@ button:hover {
 
 #keepPractising {
   	display: flex;
+  	margin-bottom: 32px;
 }
 
 #keepPractising h1 {
-  	 /*font-family: by serif*/
+  	font-family: 'Sumana', serif;
   	font-size: 3rem;
   	font-weight: bold;
   	margin: 32px 0 24px 0;
 }
 
 #keepPractising h3 {
-  	/*font-family: by serif*/
   	font-size: 2rem;
   	font-weight: bold;
 }
@@ -171,7 +189,7 @@ button:hover {
 
 .keepPractising-box {
   	padding: 32px 24px;
-  	border-right: 1px solid #007EA7;
+  	border-right: 1px solid #FFC9B2;
 }
 
 .keepPractising-image-box {
@@ -189,15 +207,18 @@ button:hover {
   	font-weight: bold;
 }
 
+.shade{
+	background-color: #A5FFC9;
+}
 
 .campusInformation {
-  	min-width: 40%;
+  	min-width: 45%;
 }
 
 .informationBoxes {
   	display: flex;
   	min-height: 168px;
-  	border-bottom: 1px solid #007EA7;
+  	border-bottom: 1px solid #FFC9B2;
 }
 
 .information-image-box {
@@ -226,20 +247,20 @@ button:hover {
 /* start Learning section*/
 
 #startLearning{
-	background-color: #007EA7;
+	background-color: #FFA579;
 	padding-bottom: 32px;
 }
 
 
 #startLearning h1 {
-  	/*font-family: by serif*/
+  	font-family: 'Sumana', serif;
   	font-size: 2rem;
   	padding: 32px 0 32px 0;
   	text-align: center;
+	font-weight: bold;
 }
 
 #startLearning h2 {
- 	/*font-family: by serif*/
   	font-size: 1.5rem;
   	margin: 16px 0;
 }
@@ -251,6 +272,10 @@ button:hover {
   	margin: 8px 0;
 }
 
+#startLearning p {
+  	font-family: 'Poiret One', cursive;
+}
+
 
 .CoursesBox {
 	display: flex;
@@ -260,7 +285,7 @@ button:hover {
 }
 
 .eachCourse {
-  	background-color: #CCDBDC;
+  	background-color: #FFFFFF;
   	width: 30%;
   	margin: 16px;
   	padding-bottom: 24px;
@@ -284,15 +309,16 @@ button:hover {
 /* Thesis section*/
 
 #thesis h1 {
-  	/*font-family: by serif*/
+  	font-family: 'Sumana', serif;
   	font-size: 2rem;
-  	padding: 32px 0;
+  	padding-top: 32px;
   	text-align: center;
+	font-weight: bold;
 }
 
 #thesis h3 {
-  	/*font-family: by serif*/
   	font-size: 1.5rem;
+  	font-weight: bold;
 }
 
 #thesis h4 {
@@ -302,6 +328,7 @@ button:hover {
 }
 
 .thesis-container {
+	padding: 32px 24px 32px 0;
   	width: 100%;
   	display: flex;
 }
@@ -309,7 +336,8 @@ button:hover {
 .thesis-video-box {
   	height: auto;
   	width: 100%;
-  	padding-left: 24px;
+  	padding: 0 24px 0 24px;
+  	
 }
 
 video {
@@ -322,12 +350,11 @@ video {
 }
 
 .thesis-text-box p {
-  	margin-top: 16px;
+  	margin-top: 8px;
 }
 
 .thesis-infomtion-container {
-  	min-width: 423px;
-  	margin-left: 16px;
+  	min-width: 30%;
 }
 
 .each-info-box {
@@ -339,7 +366,7 @@ video {
 .info-image-box {
   	max-width: 35%;
   	height: auto;
-  	margin: 16px;
+  	margin: 16px 16px 16px 16px;
 }
 
 .thesis-img {
@@ -355,7 +382,6 @@ video {
 }
 
 footer {
-  	background-color: #007EA7;
   	color: #003249;
   	padding: 0 24px;
   	border-top: 2px solid #003249;
@@ -468,10 +494,11 @@ footer a:hover {
 	}
 
 	#startLearning h1 {
-  		/*font-family: by serif*/
+  		font-family: 'Sumana', serif;
   		font-size: 2rem;
   		padding: 32px 0 8px 0;
   		text-align: center;
+		font-weight: bold;
 	}
 
 	
@@ -505,11 +532,14 @@ footer a:hover {
 	}
 
 	#thesis h1 {
+		font-family: 'Sumana', serif;
   		padding: 32px 0 16px 0;
+  		font-size: 2rem;
+		font-weight: bold;
 	}
 
 	video {
-  		height: auto;
+  		height: 100%;
   		width: 100%;
 	}
 
@@ -517,10 +547,16 @@ footer a:hover {
 	  	display: none;
 	}
 
+	.thesis-container {
+		padding: 0;
+  		width: 100%;
+	}
+
 	.thesis-video-box{
 		padding: 0;
+		height: 100%;
 	}
-	
+
 	.thesis-infomtion-container{
 		display: none;
 	}
