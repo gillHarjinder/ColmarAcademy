@@ -223,6 +223,65 @@ button:hover {
 }
 
 
+/* start Learning section*/
+
+#startLearning{
+	background-color: #007EA7;
+	padding-bottom: 32px;
+}
+
+
+#startLearning h1 {
+  /*font-family: by serif*/
+  font-size: 2rem;
+  padding: 32px 0 32px 0;
+  text-align: center;
+}
+
+#startLearning h2 {
+ /*font-family: by serif*/
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+
+#startLearning h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 8px 0;
+}
+
+
+.CoursesBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+
+.eachCourse {
+  background-color: #CCDBDC;
+  width: 30%;
+  margin: 16px;
+  padding-bottom: 24px;
+}
+
+.eachCourse-text {
+  padding: 16px 16px;
+}
+
+.eachCourse-img {
+  width: 100%;
+  height: auto;
+}
+
+.course-img {
+  width: 100%;
+  height: auto;
+}
+
+
+
 
 /* Setup for Mobile devices*/
 
@@ -302,5 +361,43 @@ button:hover {
 	.campusInformation-text {
   		margin-left: 32px;
   		margin-bottom: 16px;
+	}
+
+	#startLearning {
+  		padding-bottom: 32px;
+  		text-align: center;
+	}
+
+	#startLearning h1 {
+  		/*font-family: by serif*/
+  		font-size: 2rem;
+  		padding: 32px 0 8px 0;
+  		text-align: center;
+	}
+
+	
+
+	.CoursesBox {
+  		justify-content: space-around;
+  		width: 100%;
+  		margin: 0 auto;
+	}
+
+	.eachCourse {
+  		width: 100%;
+  		margin: 8px 16px;
+  		padding: 0;
+	}
+
+	.eachCourse-text h3, p {
+  		display: none;
+	}
+
+	.eachCourse-img {
+  		display: none;
+	}
+
+	.course-img {
+  		display: none;
 	}
 }
