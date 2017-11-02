@@ -144,7 +144,6 @@ button:hover {
   	 /*font-family: by serif*/
   	font-size: 3rem;
   	font-weight: bold;
-  	line-height: 1.8rem;
   	margin: 32px 0 24px 0;
 }
 
@@ -157,7 +156,7 @@ button:hover {
 #keepPractising h4 {
   	font-family: 'Open Sans', sans-serif;
   	font-size: 1rem;
-  	margin: 18px 0;
+  	margin: 8px 0;
 }
 
 #keepPractising a {
@@ -193,7 +192,6 @@ button:hover {
 
 .campusInformation {
   	min-width: 40%;
-  	padding-top: 32px;
 }
 
 .informationBoxes {
@@ -203,9 +201,9 @@ button:hover {
 }
 
 .information-image-box {
-  	max-width: 35%;
+  	min-width: 35%;
   	height: auto;
-  	margin: 0 5% 5% 5%;
+  	margin: 32px;
 }
 
 .imageForDesktop {
@@ -265,5 +263,44 @@ button:hover {
 
 	#learnSomething h2 {
   		margin: 32px 0 24px 0;
+	}
+
+	#keepPractising {
+  		padding-bottom: 16px;
+	}
+
+	.keepPractising-box {
+  		display: none;
+	}
+
+	.campusInformation {
+ 		width: 100%;
+	}
+
+	.informationBoxes {
+  		flex-flow: wrap column;
+  		border: 0;
+ 	 	height: auto;
+	}
+
+	.information-image-box {
+  		min-width: 100%;
+  		margin: 0;
+  		padding: 16px;
+	}
+
+	.imageForDesktop {
+  		display: none;
+	}
+
+	.imageForMobile {
+  		display: inline-block;
+  		width: 100%;
+  		height: auto;
+	}
+
+	.campusInformation-text {
+  		margin-left: 32px;
+  		margin-bottom: 16px;
 	}
 }
