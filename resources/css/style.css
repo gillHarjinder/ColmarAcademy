@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 @import url('https://fonts.googleapis.com/css?family=Sumana');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:700');
 
 
 /* Setup for desktop*/
@@ -108,8 +109,8 @@ p{
 	font-size: 2rem;
 }
 
-h5{
-
+h3{
+	color: #FF5649;
 }
 
 
@@ -212,7 +213,7 @@ button:hover {
 }
 
 .campusInformation {
-  	min-width: 45%;
+  	min-width: 40%;
 }
 
 .informationBoxes {
@@ -222,7 +223,7 @@ button:hover {
 }
 
 .information-image-box {
-  	min-width: 35%;
+  	width: 260px;
   	height: auto;
   	margin: 32px;
 }
@@ -237,6 +238,7 @@ button:hover {
 }
 
 .campusInformation-text {
+	width: 280px;
 	display: flex;
   	flex-flow: wrap column;
   	justify-content: center;
@@ -253,7 +255,7 @@ button:hover {
 
 
 #startLearning h1 {
-  	font-family: 'Sumana', serif;
+  	font-family: 'Catamaran', sans-serif;
   	font-size: 2rem;
   	padding: 32px 0 32px 0;
   	text-align: center;
@@ -309,11 +311,11 @@ button:hover {
 /* Thesis section*/
 
 #thesis h1 {
-  	font-family: 'Sumana', serif;
   	font-size: 2rem;
   	padding-top: 32px;
   	text-align: center;
 	font-weight: bold;
+	font-family: 'Catamaran', sans-serif;
 }
 
 #thesis h3 {
